@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+label {
+    font-size: large;
+    font-weight: 500;
+}
+
+div div {
+    margin-top: 5%;
+}
+
+input {
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+::placeholder {
+    padding: 20px;
+}
+
+.flex-one {
+    display: flex;
+    justify-content: space-between;
+}
+#input-error, #focus-red {
+    border: 1px solid red;
+}
+label[for="focus"] {
+    color: blue;
+}
+.four {
+    margin-top: 5%;
+}
+
+#disabled {
+    background-color: blanchedalmond;
+    border: none;
+}
+
+.flex-two {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+label[for="helper"] {
+    color: red;
+}
+#helper-red {
+    border: 1px solid red;
+}
+
+.flex-three {
+    display: flex;
+}
+.flex-three div {
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#input-sm {
+    height: 30px;
+}
+
+#input-wd {
+    width: 100%;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 2%;
+    color: white;
+    background-color: green;
+    width: 10%;
+    border: none;
+}
+
+@media screen and (max-width:800px) {
+    .flex-one, .flex-two, .flex-three {
+        display: block;
+    }
+    body {
+        margin: 10px
+    }
+    h1 {
+        font-size: 20px;
+    }
+    
+    label {
+        font-size: smaller;
+        font-weight: 400;
+    }
+    input {
+        height: 50px;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid black;
+    }
+}
